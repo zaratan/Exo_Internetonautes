@@ -10,9 +10,6 @@ PreCommit:
     enabled: true
     required_executable: './bin/prettirun'
 PrePush:
-  RSpec:
-    enabled: true
-    command: ['bundle', 'exec', 'rspec', '-f', 'p'] # Invoke within Bundler context
   Prettier:
     enabled: true
     required_executable: './bin/prettirun'
