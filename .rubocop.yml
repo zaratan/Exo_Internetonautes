@@ -1,0 +1,30 @@
+inherit_from:
+  - http://relaxed.ruby.style/rubocop.yml
+
+inherit_gem:
+  prettier: rubocop.yml
+
+require:
+  - rubocop-performance
+
+AllCops:
+  NewCops: enable
+  DisplayStyleGuide: true
+  DisplayCopNames: true
+  SuggestExtensions: false
+  TargetRubyVersion: 2.6
+  Exclude:
+    - 'bin/*'
+    - 'vendor/**/*'
+    - 'node_modules/**/*'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*.rb'
+    - 'Guardfile'
+    - 'config/environments/*.rb'
+    - 'lib/tasks/*.rake'
+
+### Prettier
+Style:
+  Enabled: false

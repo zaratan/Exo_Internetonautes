@@ -1,0 +1,10 @@
+{
+  "name": "exo_internautes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@prettier/plugin-ruby": "^2.0.0",
+    "prettier": "^2.5.1"
+  }
+}
