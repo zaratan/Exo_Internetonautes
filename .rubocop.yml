@@ -25,6 +25,10 @@ Metrics/BlockLength:
     - 'config/environments/*.rb'
     - 'lib/tasks/*.rake'
 
+Naming/MethodParameterName:
+  Enabled: false
+
 ### Prettier
 Style:
   Enabled: false
+
