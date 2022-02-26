@@ -10,6 +10,7 @@ GEM
       bundler (>= 1.2.0, < 3)
       thor (~> 1.0)
     childprocess (4.1.0)
+    coderay (1.1.3)
     diff-lcs (1.5.0)
     e2mmap (0.1.0)
     iniparse (1.5.0)
@@ -18,6 +19,7 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
+    method_source (1.0.0)
     nokogiri (1.13.3-arm64-darwin)
       racc (~> 1.4)
     overcommit (0.58.0)
@@ -28,6 +30,9 @@ GEM
     parser (3.1.1.0)
       ast (~> 2.4.1)
     prettier (2.0.0)
+    pry (0.14.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
     racc (1.6.0)
     rainbow (3.1.1)
     regexp_parser (2.2.1)
@@ -78,6 +83,7 @@ DEPENDENCIES
   bundle-audit
   overcommit
   prettier
+  pry (~> 0.14.1)
   rubocop
   rubocop-performance
   solargraph

@@ -13,3 +13,5 @@ gem "rubocop-performance"
 gem "solargraph"
 
 ruby '3.1.1'
+
+gem "pry", "~> 0.14.1"
