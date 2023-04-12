@@ -20,7 +20,9 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     method_source (1.0.0)
-    nokogiri (1.13.3-arm64-darwin)
+    nokogiri (1.14.3-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.14.3-x86_64-linux)
       racc (~> 1.4)
     overcommit (0.58.0)
       childprocess (>= 0.6.3, < 5)
@@ -33,7 +35,7 @@ GEM
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    racc (1.6.0)
+    racc (1.6.2)
     rainbow (3.1.1)
     regexp_parser (2.2.1)
     reverse_markdown (2.1.1)
@@ -78,6 +80,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   bundle-audit
